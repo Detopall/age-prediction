@@ -53,4 +53,29 @@ input[type="file"] {
 #result {
 	margin-top: 20px;
 	text-align: center;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.bar-container {
+	display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+	width: 50%;
+}
+
+.green {
+	background-color: #4caf50;
+}
+
+.red {
+	background-color: #f44336;
+}
+
+.orange {
+	background-color: #ff9800;
 }
